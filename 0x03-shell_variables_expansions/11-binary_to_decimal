@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ${D2B[85]}
+echo "ibase=2; $1" | bc

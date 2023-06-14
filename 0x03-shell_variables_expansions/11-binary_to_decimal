@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=2; obase=10; $1" | dc
+printf "%.2f\n" 3.14159
